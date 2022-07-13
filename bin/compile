@@ -12,6 +12,8 @@ BUILD_DIR=$1
 VENDOR_DIR="$BUILD_DIR/vendor"
 ENV_DIR=$3
 
+echo $ENV_DIR
+echo 'hello!'
 ls $ENV_DIR 1>&2
 
 # adapted from SectorLabs/heroku-buildpack-git-submodule
